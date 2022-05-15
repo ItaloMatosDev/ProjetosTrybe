@@ -1,0 +1,50 @@
+.search-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px 15px 15px;
+}
+
+.search-form input {
+  transition: 0.4s ease-in-out;
+  margin: 5px 0px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-form label input {
+  margin-right: 15px;  
+}
+
+.search-input-text {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 80vw;
+}
+
+.search-form button {
+  background-color: white;
+  outline: none;
+  box-shadow: 9px 9px 7px -6px rgba(128, 109, 34, 0.6);
+  color: #fb9400;
+  opacity: 1;
+  justify-self: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 1.1em;
+  margin-top: 15px;
+  padding: 10px;
+  transition: 0.4s ease-in-out;
+  width: 100%;
+}
+
+.search-radio {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 2px;
+}

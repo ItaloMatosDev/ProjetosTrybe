@@ -1,0 +1,16 @@
+.category {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  text-align: left;
+  width: 30vw;
+}
+
+.category li {
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+.input-category {
+  margin-right: 5px;
+}
